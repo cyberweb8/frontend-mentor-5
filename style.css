@@ -92,7 +92,8 @@ body {
 .service__photo::after {
   content: "";
   background-color: var(--clr-secondary-2);
-  filter: contrast(220%);
+  /* filter: contrast(220%); */
+  mix-blend-mode: hard-light;
   position: absolute;
   inset: 0;
 }
