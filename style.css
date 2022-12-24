@@ -184,7 +184,8 @@ body {
 }
 @media (min-width: 992px) {
   .service {
-    max-width: 1050px;
+    max-width: 1100px;
+    width: 90%;
   }
 
   .service__info {
@@ -213,12 +214,13 @@ body {
 
 @media (min-width: 1200px) {
   .service {
-    max-width: 1100px;
+    max-width: 1200px;
+    width: 90%;
     gap: 2.5rem;
   }
 
   .service__info {
-    padding: 3em 3em 1.5em;
+    padding: 4em 4em 2em;
     gap: 1.5rem;
     max-width: 500px;
   }
@@ -229,11 +231,11 @@ body {
   }
 
   .service__title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .service__text {
-    margin-bottom: 2rem;
-    font-size: 0.75rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
   }
 }
