@@ -29,27 +29,43 @@
     <main>
       <article class="service">
         <div class="service__photo">
-          <img
-            src="images/image-header-mobile.jpg"
-            alt="three women are talking and working on their laptops"
-          />
+          <picture>
+            <source
+              srcset="images/image-header-desktop.jpg"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="images/image-header-mobile.jpg"
+              alt="three women are talking and working on their laptops"
+            />
+          </picture>
         </div>
         <div class="service__info">
           <h1 class="service__title">
-            Get insights that help your business grow.
+            Get <span class="insight">insights</span> that help your business
+            grow.
           </h1>
           <p class="service__text">
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
 
-          <div class="service__details">
-            <p class="service__details-companies">10k+ companies</p>
+          <ul class="service__details">
+            <li class="service__details-companies">
+              <h2>10k+</h2>
+              <p>companies</p>
+            </li>
 
-            <p class="service__details-templates">314 templates</p>
+            <li class="service__details-templates">
+              <h2>314</h2>
+              <p>templates</p>
+            </li>
 
-            <p class="service__details-queries">12m+ queries</p>
-          </div>
+            <li class="service__details-queries">
+              <h2>12m+</h2>
+              <p>queries</p>
+            </li>
+          </ul>
         </div>
       </article>
     </main>
