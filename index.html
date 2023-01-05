@@ -19,9 +19,12 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: #fff;
       }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
+      .attribution a,
+      .attribution a:visited {
+        color: hsl(228, 82%, 70%);
+        text-decoration: none;
       }
     </style>
   </head>
@@ -36,7 +39,8 @@
             />
             <img
               src="images/image-header-mobile.jpg"
-              alt="three women are talking and working on their laptops"
+              alt=""
+              aria-hidden="true"
             />
           </picture>
         </div>
@@ -52,17 +56,17 @@
 
           <ul class="service__details">
             <li class="service__details-companies">
-              <h2>10k+</h2>
+              <p>10k+</p>
               <p>companies</p>
             </li>
 
             <li class="service__details-templates">
-              <h2>314</h2>
+              <p>314</p>
               <p>templates</p>
             </li>
 
             <li class="service__details-queries">
-              <h2>12m+</h2>
+              <p>12m+</p>
               <p>queries</p>
             </li>
           </ul>
@@ -70,9 +74,16 @@
       </article>
     </main>
 
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/cyberweb8/frontend-mentor-5" target="_blank"
+        >@cyberweb8 </a
+      >.
+    </div>
   </body>
 </html>
