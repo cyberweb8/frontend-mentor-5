@@ -24,12 +24,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
 - For mobile Design
+
   ![Mobile Design](./images/mobile-design.jpg)
 
 - For Desktop Design
+
   ![Desktop Design](./images/desktop-design.jpg)
 
 ### Links
