@@ -24,10 +24,18 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+### Screenshot
+
+- For mobile Design
+  ![Mobile Design](./images/mobile-design.jpg)
+
+- For Desktop Design
+  ![Desktop Design](./images/desktop-design.jpg)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cyberweb8/frontend-mentor-5)
-- Live Site URL: [Add live site URL here](https://cyberweb8.github.io/frontend-mentor-5/)
+- The project in my github: [frontend-mentor-5](https://github.com/cyberweb8/frontend-mentor-5)
+- Live Site URL: [Live Site to enjoy](https://cyberweb8.github.io/frontend-mentor-5/)
 
 ## My process
 
